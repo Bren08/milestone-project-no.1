@@ -1,6 +1,27 @@
 body {
     padding-top: 0px;
+    scroll-behavior: smooth;
+    }
     
+    ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ff4700; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d03631; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888; 
 }
 
 .container-fluid {
@@ -24,7 +45,7 @@ body {
 
 
 .navbar-inverse {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -44,7 +65,8 @@ body {
 }
 
 .navbar-brand {
-    margin-left: -10px;
+    margin-left: -5px;
+    font-size: 35px;
 }
 
 
@@ -66,10 +88,11 @@ body {
     
     font-family: 'Molle', cursive;
     font-size: 72px;
-    margin-top: 327px;
+    margin-top: 0px;
     margin-bottom: 45px;
-    color:#ffffff;
+    color: black;
 }
+
 .header-info {
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
@@ -79,7 +102,7 @@ body {
 
 #callout-section {
     background-image: url("https://bren08.github.io/milestone-project-no.1/assets/images/background_image.jpg");
-    height: 570px;
+    height: 100vh;
     width: 100%;
     
   background-position: top;
@@ -87,6 +110,8 @@ body {
   background-size: cover ;
   position: relative;
 }
+
+
 
 /*------------section colours--------------*/
 
@@ -111,7 +136,7 @@ body {
 }
 .latest {
     background-color: #dec6c4;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 
@@ -122,6 +147,18 @@ body {
 .bio-pic {
     height: 230px;
     object-fit: scale-down;
+    -webkit-transition: all 2s ease-in;
+     -moz-transition: all 2s ease-in;
+       -o-transition: all 2s ease-in;
+      -ms-transition: all 2s ease-in;
+          transition: all 2s ease-in;
+}
+.bio-pic:hover {
+    -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 
@@ -131,6 +168,9 @@ body {
 .info-social {
     font-family: 'Molle', cursive;
     margin-bottom: 40px;
+    margin-top : 40px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .fa {
@@ -138,21 +178,40 @@ body {
     font-size: 2.2em;
     background-color: #fff;
     border: 18px solid #fff;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-right: 25px;
     margin-top: 20px;
 }
 .fa-youtube:before {
    color: #e52d27;
 }
-.fa-facebook:before {
-    color: #3b5998;
+.fa-youtube:hover {
+    opacity: 0.6;
 }
+
+.fa-facebook-square {
+    margin-right: 15px;
+}
+.fa-facebook-square:before {
+    color: #3b5998;
+   }
+.fa-facebook-square:hover {
+    opacity: 0.6;
+}   
 .fa-twitter:before {
     color: #55acee;
 }
+.fa-twitter:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    border: 18px solid #fff;
+}
 .fa-instagram:before {
     color: #f38c31;
+}
+.fa-instagram:hover {
+    opacity: 0.7;
 }
 
 .fa-facebook .fa-twitter .fa-youtube .fa-instagram {
@@ -163,11 +222,12 @@ body {
     margin-top: 30px;
 }
 
-.fa-twitter {
-    border: 18px solid #fff;
-}
+
+
+
 
 /*-----------Music Hits , About Us & Tour Dates-------------*/
+
 
 
 .info {
@@ -199,6 +259,7 @@ body {
     font-weight: bold;
     width: 100%;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
   
@@ -214,7 +275,7 @@ body {
  
  .latest-news img {
      margin-top: 55px;
-     padding-left: 25px;
+     padding-left: 0px;
  }
  
  
@@ -274,14 +335,27 @@ form {
 
 input {
   flex-grow: 0;
-  padding: 0.5em 0.75em;
+  padding: 1em 0.75em;
   
     }
 
 button {
-  padding: 0.1em 0.25em;
+  padding: 0.1em 15em;
   background: hsl(130, 75%, 75%); 
-    }
+ 
+  border-radius: 10px;
+  background-color: #f4511e;
+  color: #ffffff;
+  border: 0;
+  font-size: 15px;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+button:hover{
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+    
 .btn {
     margin-bottom: 10px;
     margin-left: 10px;
@@ -292,7 +366,11 @@ button {
     padding-top: 130px;
     padding-bottom: 30px;
     background-color: #e9aba5;
+    }
+a {
+    text-decoration: none !important;
 }
+
 
 fieldset {
     min-width: 100%;
