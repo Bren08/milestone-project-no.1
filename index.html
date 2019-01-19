@@ -18,7 +18,7 @@
 
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,7 +42,7 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </nav>
     
     
       
@@ -67,7 +67,7 @@
     <!--Latest News-->
     
     
-    <section class="latest" id="info-latest">
+    <main class="latest" id="info-latest">
         <div class="header-lead text-center"><strong>The Monkees</strong></div>
         
             <div class="container-fluid latest-news">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-    </section>    
+    </main>    
     
     <!--End Latest News-->
     
@@ -190,8 +190,10 @@
                     <div class="row">
                           <div class="col-sm-6">
                                 <div class="card">
-                                  <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Davy_Jones.jpg" alt="Davy Jones" style="width:100%">
-                                      <div class="bio-info text-center">
+                                  <figure>
+                                      <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Davy_Jones.jpg" alt="Davy Jones" style="width:100%">
+                                  </figure>   
+                                 <div class="bio-info text-center">
                                         <h2 class="info-name">Davy Jones</h2>
                                         <p class="info">Vocals</p>
                                         <p class="info">David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman, 
@@ -201,7 +203,9 @@
                           </div>
                           <div class="col-sm-6">
                                 <div class="card">
-                                  <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Mickey_Dolenz.jpg" alt="Mickey Dolenz" style="width:100%">
+                                  <figure>
+                                      <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Mickey_Dolenz.jpg" alt="Mickey Dolenz" style="width:100%">
+                                  </figure>     
                                       <div class="bio-info text-center">
                                         <h2 class="info-name">Mickey Dolenz</h2>
                                         <p class="info">Drums / Vocals</p>
@@ -212,7 +216,9 @@
                           </div>
                         <div class="col-sm-6">
                                 <div class="card">
-                                  <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Mike_Nesmith.jpg" alt="Mike Nesmith" style="width:100%">
+                                  <figure>
+                                      <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Mike_Nesmith.jpg" alt="Mike Nesmith" style="width:100%">
+                                  </figure>    
                                       <div class="bio-info text-center">
                                         <h2 class="info-name">Mike Nesmith</h2>
                                         <p class="info">Guitar / Vocals</p>
@@ -223,7 +229,9 @@
                           </div>
                         <div class="col-sm-6">
                             <div class="card">
-                              <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Peter_Tork.jpg" alt="Peter Tork" style="width:100%">
+                              <figure>
+                                  <img class="bio-pic" src="https://bren08.github.io/milestone-project-no.1/assets/images/Peter_Tork.jpg" alt="Peter Tork" style="width:100%">
+                              </figure>    
                               <div class="bio-info text-center">
                                 <h2 class="info-name">Peter Tork</h2>
                                 <p class="info" >Keyboard / Bass guitarist</p>
@@ -267,16 +275,9 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div id="Newsletter">
-                                <h1 class="header">Subscribe To Our Newsletter For The Latest News</h1>
-                        
-                    
-                                <form action="#">
-                                    <div class="input-group">
-                                         <input class="btn btn-lg" name="email" id="e-mail" type="email" placeholder="Your E-mail" required>
-                                         <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-                                    </div>
-                                </form>
-                
+                                <h1 class="header">Subscribe To Our Newsletter.</h1>
+                                    <h2 class="info-info">For the latest news and to be in with a chance to win a signed Christmas Album.<br>
+                                                          Just sign up to our Newsletter by filling out the form below.</h2>
                             </div>
                         </div>
                     </div>
@@ -293,7 +294,7 @@
                 	<div class="row">
                       <div class="col-md-12">
                         <div class="well well-sm">
-                          <form class="form-horizontal" action="#" method="post">
+                          <form class="form-horizontal" action="" method="post">
                           <fieldset>
                             <legend class="info-latest text-center">Contact us</legend>
                     
@@ -301,7 +302,7 @@
                             <div class="form-group">
                               <label class="col-md-3 info" for="name">Name</label>
                               <div class="col-md-9">
-                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                <input id="name" name="name" type="text" placeholder="Your name.." class="form-control">
                               </div>
                             </div>
                     
@@ -309,7 +310,7 @@
                             <div class="form-group">
                               <label class="col-md-3 info" for="email">E-mail</label>
                               <div class="col-md-9">
-                                <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email">
+                                <input type="email" class="form-control" id="email" placeholder="Enter e-mail.." name="email">
                               </div>
                             </div>
                     
@@ -324,7 +325,7 @@
                             <!-- Form actions -->
                             <div class="form-group">
                               <div class="col-md-12 text-right">
-                                <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                                <button class="btn btn-primary btn-lg" type="">Submit</button>
                               </div>
                             </div>
                           </fieldset>
