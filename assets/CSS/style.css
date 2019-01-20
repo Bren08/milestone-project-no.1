@@ -2,7 +2,7 @@ body {
     padding-top: 0px;
     }
     
-    html {
+html {
         scroll-behavior: smooth;
     }
     ::-webkit-scrollbar {
