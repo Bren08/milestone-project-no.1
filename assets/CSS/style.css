@@ -445,6 +445,9 @@ button:hover{
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
 } 
 
+ .btn-primary {
+     width: 100%;
+ }
 
 #contact-us {
     padding-top: 130px;
