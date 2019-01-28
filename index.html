@@ -21,7 +21,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -29,8 +29,9 @@
           </button>
           <a class="navbar-brand" href="https://www.monkees.com">The Monkees</a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
+        <div id="navbar" class="navbar-collapse collapse">
+            <div class="container flex-container">
+          <ul class="nav navbar-nav">
             <li class="#"><a href="#">Home</a></li>       
             <li><a href="#about-section">About</a></li>
             <li><a href="#music-section">Music</a></li>
@@ -40,6 +41,7 @@
             <li><a href="#contact-us">Contact Us</a></li>
               
           </ul>
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -81,7 +83,7 @@
                     </div>
                     <div class="col-sm-4">
                         <img src="assets/images/Christmas_Album.jpg" alt="Christmas Album" class="xmas-responsive"/>
-                            <p class="info text-center"><br><a href="https://rhino.lnk.to/ChristmasParty?ref=https%3A//www.monkees.com/" target="_blank"><button type="button" class="btn btn-success btn-xs">Buy</button></a></p>
+                            <p class="info-xmas text-center"><a class="button-xmas" href="https://rhino.lnk.to/ChristmasParty?ref=https%3A//www.monkees.com/">Buy<a></p>
                     </div>
                     <div class="col-sm-4">
                         <h2 class="info-social text-center">Social Media</h2>
@@ -113,33 +115,36 @@
    <div class="songlist-section">
                 <div class="container">
                         <div class="row">
-                            <div class="col-sm-6 text-center">
-                                <audio controls>
-                            	<source src="assets/audio/LastTrainToClarksville.mp3" type="audio/mpeg">
-                                </audio><hr>
+                            <div class="col-sm-6 text-center"><hr>
                                 <p class="info text-center">Last Train to Clarksville</p>
-                            </div>
-                            <div class="col-sm-6 text-center">
-                                <audio controls>
-                                <source src="assets/audio/ImaBeliever.mp3" type="audio/mpeg">
-                                </audio><hr>
+                                    <audio controls>
+                                	<source src="assets/audio/LastTrainToClarksville.mp3" type="audio/mpeg">
+                                    </audio>
+                            </div>   
+                            
+                            <div class="col-sm-6 text-center"><hr>
                                 <p class="info text-center">I'm A Believer</p>
+                                    <audio controls>
+                                    <source src="assets/audio/ImaBeliever.mp3" type="audio/mpeg">
+                                    </audio>
+                                
                             </div>    
                         </div>
                </div>
                 <div class="container">
                         <div class="row">
-                            <div class="col-sm-6 text-center">
-                                <audio controls>
-                            	<source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                                </audio><hr>
+                            <div class="col-sm-6 text-center"><hr>
                                 <p class="info text-center">Daydream Believer</p>
+                                    <audio controls>
+                                	<source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                                    </audio>
                             </div>
-                            <div class="col-sm-6 text-center">
-                                <audio controls>
-                                <source src="assets/audio/SteppinStone.mp3" type="audio/mpeg">
-                                </audio><hr>
+                            <div class="col-sm-6 text-center"><hr>
                                 <p class="info text-center">(I'm Not Your) Steppin' Stone</p>
+                                    <audio controls>
+                                    <source src="assets/audio/SteppinStone.mp3" type="audio/mpeg">
+                                    </audio>
+                                
                             </div>    
                         </div>
                </div>
@@ -288,7 +293,7 @@
                         <div class="col-sm-12">
                             <div id="Newsletter">
                                 <h1 class="header">Subscribe To Our Newsletter.</h1>
-                                    <h2 class="info-info">For the latest news and to be in with a chance to win a signed Christmas Album.<br>
+                                    <h2 class="info-info">For latest news and a chance to win a signed Christmas album.<br>
                                                           Just <a href="#contact-us"> sign up </a>to our Newsletter by filling out the form below.</h2>
                             </div>
                         </div>
