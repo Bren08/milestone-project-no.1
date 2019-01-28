@@ -27,9 +27,7 @@ html {
   background: #888; 
 }
 
-.container-fluid {
-    display: inline-block;
-}
+
    
     
 .navbar {
@@ -39,14 +37,17 @@ html {
     left: 0;
     width: 100%;
     z-index: 1;
-    
+    display: inline-block;
     border: 0;
     font-family: 'Molle', cursive;
     font-weight: bold;
     font-size: 22px;
 }
 
-
+.flex-container {
+    display: flex;    
+    justify-content: center;
+}
 .navbar-inverse {
     background-color: rgba(0, 0, 0, 1);
 }
@@ -68,10 +69,13 @@ html {
 }
 
 .navbar-brand {
-    margin-left: -5px;
+    width: 100%;
+    text-align: center;
     font-size: 35px;
 }
-
+.navbar-header {
+    float: none;
+}
 
 
 
@@ -114,7 +118,41 @@ html {
   position: relative;
 }
 
+@media screen and (max-width:1440px) {
+    #callout-section {
+        height: 82vh;
+    }
+}
+@media screen and (min-width:1024px) {
+    #callout-section {
+        height: 66vh;
+    }
+}
 
+@media screen and (min-width:768px) {
+    #callout-section {
+        height: 77vh;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    #callout-section {
+        height: 32vh;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #callout-section {
+        height: 32vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #callout-section {
+        height: 27vh;
+    }
+}
 
 /*------------section colours--------------*/
 
@@ -174,6 +212,7 @@ html {
     margin-top : 40px;
     font-size: 30px;
     font-weight: bold;
+    color: #333;
 }
 
 .fa {
@@ -231,7 +270,9 @@ html {
 
 /*-----------Music Hits , About Us & Tour Dates-------------*/
 
-
+.info-xmas {
+    margin-top :20px;
+}
 
 .info {
     font-family: 'Ubuntu', sans-serif;
@@ -239,6 +280,7 @@ html {
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 20px;
+
 }
 
 .info-info{
@@ -327,8 +369,10 @@ html {
 
 .responsive {
     max-width: 100%;
-    height: 400px;
+    height: 300px;
 }
+
+
 
      
 /*-------------Newsletter & Contact Us----------*/
@@ -385,6 +429,22 @@ button:hover{
     margin-left: 10px;
     font-size: 16px;
 }
+.button-xmas {
+  padding: 3px 100px;
+  background: hsl(130, 75%, 75%); 
+  border-radius: 10px;
+  background-color: #058a1b;
+  color: #ffffff;
+  border: 0;
+  font-size: 15px;
+  transition: all 2s;
+  cursor: pointer;
+  }
+
+button:hover{
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+} 
+
 
 #contact-us {
     padding-top: 130px;
