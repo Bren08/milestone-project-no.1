@@ -22,7 +22,8 @@ I have created a Contact us form if the user were to require the services for th
 
 ## Features
 
-First and foremost you have seven different areas to navigate.  
+First and foremost you have seven different areas to navigate. The Navigation bar contains all the links for the website. 
+The Latest News area and the Footer contains the various Social Media Links. Each Social Media link is a working link connecting to each platform.
 
 <ol><li><strong>Home:</strong> The Home section is self explanatory, it takes you back to the beginning or top of the page, although 
 the sticky navigation bar also keeps the user attune as to where they are and where they can click or scroll to, to find their way around.
@@ -45,7 +46,7 @@ we can improve or enhance their experience whilst visiting our site</li></ul>
 <li>Font awesome was used for some of the social media icons</li><li>Google Fonts was used for different text/fonts required</li><li>Cloud9 was used as the IDE to write the markup and css
 in an open source work-space</li><li>Git & Github were used to commit repositories to, again so the code can be viewed or edited or stored. It was also used to deploy the website.</li></ul>
 
-##### The list of frameworks, languages & libraries used were: 
+#### The list of frameworks, languages & libraries used were: 
 
 HTML: https://www.w3schools.com/ <br> CSS: https://www.w3schools.com/css/ <br> Bootstrap: https://getbootstrap.com/ <Br>Font Awesome: https://origin.fontawesome.com/ <Br> Google Fonts: https://fonts.google.com/
 <Br> Cloud9: https://aws.amazon.com/cloud9/ <Br> Git: https://git-scm.com/ <Br> Github: https://github.com/
@@ -63,7 +64,7 @@ takes you to another website where you can purchase the album, that works well.<
 I have used W3C Code Validator https://validator.w3.org/nu/ to verify there are no errors in my HTML and CSS. I have tried to keep the code as semantic as possible too.<br> I have yet to test the site
 out on any other browser other than Google Chrome and Android, so it has not been tested on Edge, Safari or IOS.
 
-##### Issues: 
+#### Issues: 
 
 A bug or issue I did come across whilst I was testing was, the navigation bar didn't reduce or respond as I thought it would when the screen size is reduced from 992px to 768px, the brand logo 
 seems to stay above the navigation links for some reason. I am currently looking for a solution to this.<br> Another issue I came across was the background image isn't responding well
@@ -77,12 +78,12 @@ I deployed the project using Github pages and the link to the website is: https:
 
 ## Credits 
 
-##### Contents:
+#### Contents:
 
 The text used for the About section was taken from Wikipedia, each article used was a shortened bio of each band member.<br> https://en.wikipedia.org/wiki/Micky_Dolenz <br> https://en.wikipedia.org/wiki/Michael_Nesmith <br> 
 https://en.wikipedia.org/wiki/Davy_Jones_(musician) <br> https://en.wikipedia.org/wiki/Peter_Tork 
 
-##### Media:
+#### Media:
 
 Some of the photos obtained were from the assets provided in a Github repository provided by Code Institute. https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets<br>
 Some other photos were obtained from Google images and are solely used for my project only on an educational basis as a student. 
@@ -90,7 +91,7 @@ Some other photos were obtained from Google images and are solely used for my pr
 The mp3 files were obtained by converting Youtube videos to mp3 format for the music player, again only used for educational purposes.<br>
 The videos are embedded from Youtube directly.
 
-## Acknowledgements
+#### Acknowledgements:
 
 I would like to thank Shane Muirhead of the Code Institute Slack channel and my mentor assigned by Code Institute Ali Ashik for their help and advice as they gave me some guidance as to how to improve the UX of the site.
 
