@@ -12,13 +12,21 @@ to take advice or instruction to better this project to whomever would like to c
 This website is for the existing fan base and also for a newer cohort of fans too. If it's just to reminisce and listen or view the 
 bands back-catalogue material, or new fans have been intrigued to listen to some more, the site is easily accessible and navigation is 
 smooth and true for either user to manouvere around. The site has a fresh bright look with easy on the eye colours and text that stands out, but 
-not too much. The Monkees came from a time were funky music and colours were the norm so I feel with the fonts used this establishes the look 
+not too much. There is also a scroll bar added to ease the movement vertically up and down the website. 
+
+The Monkees came from a time were funky music and colours were the norm so I feel with the fonts used this establishes the look 
 that they were going for, without the far out colours of their heyday.
 
 I've used some shadow effects for smooth transition on the click of the buttons. I've also made the transition from section to section as smooth
 as possible with some smooth scrolling, so moving through the navigation features is effortless. There are plenty of sections available to the user
-to gain whatever knowledge they require. There is also a link to buy some current material or tickets for up and coming shows, if the user wishes to do so.
+to gain whatever knowledge they require. 
+
+There is also a link to buy some current material or tickets for up and coming shows, if the user wishes to do so.
 I have created a Contact us form if the user were to require the services for the band for a private function or they want to sign up for the newsletter.
+
+
+Also with the band currently trying to promote their exposure on Social Media, there are plenty of Social Media platforms to choose from, whether it's 
+Facebook, Twitter, Youtube or Instagram, they are all catered for and only a click away.
 
 ## Features
 
