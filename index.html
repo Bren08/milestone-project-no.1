@@ -10,251 +10,219 @@
         <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="assets/CSS/style.css">
-        
-    </head>
+</head>
 <body>
-    
-
-
-
-    <!-- Fixed navbar -->
+     <!--navbar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="https://www.monkees.com">The Monkees</a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="https://www.monkees.com">The Monkees</a>
+            </div>
+                  <div id="navbar" class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav">
+                         <li class="#"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>       
+                         <li><a href="#about-section" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+                         <li><a href="#music-section" data-toggle="collapse" data-target=".navbar-collapse.in">Music</a></li>
+                         <li><a href="#video-section" data-toggle="collapse" data-target=".navbar-collapse.in">Videos</a></li>
+                         <li><a href="#tour-dates" data-toggle="collapse" data-target=".navbar-collapse.in">Tour</a></li>
+                         <li><a href="#news" data-toggle="collapse" data-target=".navbar-collapse.in">News</a></li>
+                         <li><a href="#contact-us" data-toggle="collapse" data-target=".navbar-collapse.in">Contact Us</a></li>
+                     </ul>
+                  </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <div class="container flex-container">
-          <ul class="nav navbar-nav">
-            <li class="#"><a href="#">Home</a></li>       
-            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#about-section">About</a></li>
-            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#music-section">Music</a></li>
-            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#video-section">Videos</a></li>
-            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#section-tour-dates">Tour</a></li>
-            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#info-latest">News</a></li>
-            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#contact-us">Contact Us</a></li>
-              
-          </ul>
-          </div>
-        </div><!--/.nav-collapse -->
-      </div>
     </nav>
     
+    <!--background image-->
     
-      
-        
-        
-        <!-- End Navigation -->
-    
-        <!--Callout section-->
-    
-    
-        <div class="container text-center" id="callout-section">
-            <div class="row">
-                <div class="col-sm-12">
-                   
-                    </div>
-                </div>
+    <div class="container-fluid back-image">
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="/assets/images/background_image.jpg" alt="background image" class="img-responsive"/>
             </div>
-    
-    
-    <!--End Callout-->
+        </div>
+    </div>
     
     <!--Latest News-->
     
-    
-    <main class="latest" id="info-latest">
-        <div class="header-lead text-center"><strong>The Monkees</strong></div>
-        
-            <div class="container-fluid latest-news">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h2 class="info-latest">Our Latest News</h2>
-                        <p class="info">At long long last we have finally been able to release our new Christmas Album. There are some classics on there as well as new material we have produced.</p>
-                        <p class="info">We shall be hitting the road again in 2019 and we have included some new cities and venues we have never played in, this is as exciting for us guys as I'm sure it is for our fans.</p>
-                        <p class="info">***Extra Special News***<br></p>
-                        <p class="info">We are now taking bookings for private functions<a href="#contact-us"> Click here </a>for further information on how to get in touch.</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="assets/images/Christmas_Album.jpg" alt="Christmas Album" class="xmas-responsive"/>
-                            <p class="info-xmas text-center"><a class="button-xmas" href="https://rhino.lnk.to/ChristmasParty?ref=https%3A//www.monkees.com/">Buy</a></p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h2 class="info-social text-center">Social Media</h2>
-                            <div class="social-links text-center">
-                                <a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square"></i></a>
-                                <a target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
-                                <a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a>
-                                <a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram"></i></a>
-                            </div>
-                            <h2 class="info text-center">You can reach us on one of our many social media accounts.</h2><hr>
-                    </div>
-                </div>
+    <main class="container-fluid latest-news" id="news">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="sub-header text-center">Latest News</div>
+                    <p class="info">At long long last we have finally been able to release our new Christmas Album. There are some classics on there as well as new material we have produced.</p>
+                    <p class="info">We shall be hitting the road again in 2019 and we have included some new cities and venues we have never played in, this is as exciting for us guys as I'm sure it is for our fans.</p>
+                    <p class="info">***Extra Special News***<br></p>
+                    <p class="info">We are now taking bookings for private functions<a href="#contact-us"> Click here </a>for further information on how to get in touch.</p>
             </div>
+            <div class="col-sm-4">
+                    <img src="assets/images/Christmas_Album.jpg" alt="Christmas Album" class="xmas-responsive"/>
+                    <p class="info-xmas text-center"><a class="button-xmas" href="https://rhino.lnk.to/ChristmasParty?ref=https%3A//www.monkees.com/">Buy Album</a></p>
+            </div>
+                 <div class="col-sm-4 text-center">
+                     <div class="sub-header text-center">Social Media</div>
+                         <a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square"></i></a>
+                         <a target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                         <a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a>
+                         <a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram"></i></a>
+                 </div><br>
+                          <div class="info text-center">You can reach us on one of our many social media accounts.</div><hr>
+        </div>
     </main>    
     
-    <!--End Latest News-->
-    
     <!--Music Section-->
+    
     <header id="music-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="header text-center">Music</h1>
-                    <p class="info-hits text-center">Here are some examples of our biggest hits:</p>
-                </div> 
-            </div>
-        </div>
-   
-   <div class="songlist-section">
-                <div class="container">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="header text-center">Music</div>
+                        <p class="info text-center">Here are some examples of our biggest hits:</p>
+                  </div> 
+              </div>
+          </div>
+                <div class="music-player">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6 text-center"><hr>
                                 <p class="info text-center">Last Train to Clarksville</p>
                                     <audio controls>
-                                	<source src="assets/audio/LastTrainToClarksville.mp3" type="audio/mpeg">
+                                    <source src="assets/audio/LastTrainToClarksville.mp3" type="audio/mpeg">
                                     </audio>
-                            </div>   
-                            
-                            <div class="col-sm-6 text-center"><hr>
-                                <p class="info text-center">I'm A Believer</p>
+                             </div>   
+                             <div class="col-sm-6 text-center"><hr>
+                                 <p class="info text-center">I'm A Believer</p>
                                     <audio controls>
                                     <source src="assets/audio/ImaBeliever.mp3" type="audio/mpeg">
                                     </audio>
-                                
-                            </div>    
+                             </div>    
                         </div>
-               </div>
-                <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 text-center"><hr>
-                                <p class="info text-center">Daydream Believer</p>
-                                    <audio controls>
-                                	<source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                                    </audio>
-                            </div>
-                            <div class="col-sm-6 text-center"><hr>
-                                <p class="info text-center">(I'm Not Your) Steppin' Stone</p>
-                                    <audio controls>
-                                    <source src="assets/audio/SteppinStone.mp3" type="audio/mpeg">
-                                    </audio>
-                                
-                            </div>    
-                        </div>
-               </div>
-     </div>
-     </header>
-     
-     <header id="video-section">
-         <div class="container">
+                    </div>
+                          <div class="container-fluid">
+                              <div class="row">
+                                  <div class="col-sm-6 text-center"><hr>
+                                      <p class="info text-center">Daydream Believer</p>
+                                         <audio controls>
+                                         <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                                         </audio>
+                                  </div>
+                                        <div class="col-sm-6 text-center"><hr>
+                                            <p class="info text-center">(I'm Not Your) Steppin' Stone</p>
+                                               <audio controls>
+                                               <source src="assets/audio/SteppinStone.mp3" type="audio/mpeg">
+                                               </audio>
+                                        </div>    
+                              </div>
+                           </div>
+                </div>
+    </header>
+    
+    <!--Video Section-->
+    
+    <header id="video-section">
+         <div class="container-fluid">
              <div class="row">
-                 <h1 class="header text-center">Videos</h1>
-                 <p class="info-hits text-center">An oldie from our back catalogue and a newly released track from our Christmas album.</p>
-                 <div class="col-sm-6">
-                     <div class="info">
-                         
-                             <div class="video-responsive">
-                             <iframe width="560" height="315" src="https://www.youtube.com/embed/WQ6LmrP3vK8" style="border:none;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <div class="header text-center">Videos</div>
+                      <p class="info text-center">An oldie from our back catalogue and a newly released track from our Christmas album.</p>
+                         <div class="col-sm-6">
+                             <div class="info">
+                                 <div class="video-responsive">
+                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/WQ6LmrP3vK8" style="border:none;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>
                              </div>
-                     </div>
-                 </div>
+                         </div>
                  <div class="col-sm-6">
                      <div class="info">
                          <div class="video-responsive">
-                         <iframe width="560" height="315" src="https://www.youtube.com/embed/05rUSARpr4g" style="border:none;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/05rUSARpr4g" style="border:none;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                          </div>
                      </div>
                  </div>
              </div>
          </div>
-         
-         
-     </header>
+    </header>
      
-     <!--End Music section-->
-     
-     <!--About Us section-->
+    <!--About Us section-->
     
     <article id="about-section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <header class="header text-center">About Us</header> 
+                    <h2 class="header text-center">About Us</h2> 
                     <p class="info text-center">The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. 
                     They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. 
                     The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, Peter Tork and English actor and singer Davy Jones.</p>
                 </div>
             </div>
         </div>
-             <div class="container">
+             <div class="container-fluid">
                     <div class="row">
                           <div class="col-sm-6">
                                 <div class="card">
-                                  <figure>
-                                      <img class="bio-pic" src="assets/images/Davy_Jones.jpg" alt="Davy Jones" style="width:100%">
-                                  </figure>   
-                                 <div class="bio-info text-center">
-                                        <h2 class="info-name">Davy Jones</h2>
-                                        <p class="info">Vocals</p>
-                                        <p class="info">David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman, 
-                                        best known as a member of the band the Monkees, and for starring in the TV series of the same name.</p>
-                                      </div>
+                                     <figure>
+                                        <img class="bio-pic" src="assets/images/Davy_Jones.jpg" alt="Davy Jones" style="width:100%">
+                                     </figure>   
+                                             <div class="info text-center">
+                                                 <div class="info">Davy Jones</div>
+                                                      <p class="info">Vocals</p>
+                                                      <p class="info">David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman, 
+                                                                      best known as a member of the band the Monkees, and for starring in the TV series of the same name.</p>
+                                             </div>
                                 </div>
                           </div>
                           <div class="col-sm-6">
                                 <div class="card">
-                                  <figure>
-                                      <img class="bio-pic" src="assets/images/Mickey_Dolenz.jpg" alt="Mickey Dolenz" style="width:100%">
-                                  </figure>     
-                                      <div class="bio-info text-center">
-                                        <h2 class="info-name">Mickey Dolenz</h2>
-                                        <p class="info">Drums / Vocals</p>
-                                        <p class="info">George Michael Dolenz Jr. (born March 8, 1945) is an American actor, musician, television director, 
-                                        radio personality and theater director, best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.</p>
-                                      </div>  
+                                     <figure>
+                                        <img class="bio-pic" src="assets/images/Mickey_Dolenz.jpg" alt="Mickey Dolenz" style="width:100%">
+                                     </figure>     
+                                              <div class="info text-center">
+                                                  <div class="info">Mickey Dolenz</div>
+                                                       <p class="info">Drums / Vocals</p>
+                                                       <p class="info">George Michael Dolenz Jr. (born March 8, 1945) is an American actor, musician, television director, 
+                                                                       radio personality and theater director, best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.</p>
+                                              </div>  
                                 </div>
                           </div>
-                        <div class="col-sm-6">
-                                <div class="card">
-                                  <figure>
-                                      <img class="bio-pic" src="assets/images/Mike_Nesmith.jpg" alt="Mike Nesmith" style="width:100%">
-                                  </figure>    
-                                      <div class="bio-info text-center">
-                                        <h2 class="info-name">Mike Nesmith</h2>
-                                        <p class="info">Guitar / Vocals</p>
-                                        <p class="info">Robert Michael Nesmith (born December 30, 1942) is an American musician, songwriter, actor, producer, novelist, businessman, 
-                                            and philanthropist, best known as a member of the pop rock band the Monkees.</p>
-                                      </div>
-                                </div>
+                    </div>
+             </div>
+                   <div class="container-fluid">
+                       <div class="row">
+                           <div class="col-sm-6">
+                               <div class="card">
+                                    <figure>
+                                       <img class="bio-pic" src="assets/images/Mike_Nesmith.jpg" alt="Mike Nesmith" style="width:100%">
+                                    </figure>    
+                                            <div class="info text-center">
+                                                <div class="info">Mike Nesmith</div>
+                                                     <p class="info">Guitar / Vocals</p>
+                                                     <p class="info">Robert Michael Nesmith (born December 30, 1942) is an American musician, songwriter, actor, producer, novelist, businessman, 
+                                                                     and philanthropist, best known as a member of the pop rock band the Monkees.</p>
+                                            </div>
+                               </div>
                           </div>
                         <div class="col-sm-6">
                             <div class="card">
-                              <figure>
-                                  <img class="bio-pic" src="assets/images/Peter_Tork.jpg" alt="Peter Tork" style="width:100%">
-                              </figure>    
-                              <div class="bio-info text-center">
-                                <h2 class="info-name">Peter Tork</h2>
-                                <p class="info" >Keyboard / Bass guitarist</p>
-                                <p class="info">Peter Halsten Thorkelson (born February 13, 1942), better known as Peter Tork, is an American musician and actor, 
-                                    best known as the keyboardist and bass guitarist of the Monkees.</p>
-                              </div>
-                          </div>
-                     </div>
-                </div>
-            </div>
+                                 <figure>
+                                    <img class="bio-pic" src="assets/images/Peter_Tork.jpg" alt="Peter Tork" style="width:100%">
+                                 </figure>    
+                                          <div class="info text-center">
+                                              <div class="info">Peter Tork</div>
+                                                   <p class="info" >Keyboard / Bass guitarist</p>
+                                                   <p class="info">Peter Halsten Thorkelson (born February 13, 1942), better known as Peter Tork, is an American musician and actor, 
+                                                                   best known as the keyboardist and bass guitarist of the Monkees.</p>
+                                          </div>
+                            </div>
+                        </div>
+                       </div>
+                   </div>
     </article>
-              
-    <!--End About Us section-->
     
-    <!--Tour Dates-->
+    <!--Tour Section-->
             
-            <header id="section-tour-dates">
+            <header id="tour-dates">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-4">
@@ -262,114 +230,103 @@
                                 <img src="assets/images/MickeyMikePeter.jpg" alt="Mickey Mike Peter" class="responsive">
                             </figure>
                         </div>    
-                        <div class="col-sm-4">
-                            
-                                <div class="venue-dates">
-                                    <h1 class="header">Tour Dates & Venues</h1>
-                                        <p class="info">Fresno USA - 30th March 2019       <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
-                                        <p class="info">California USA - 3rd April 2019    <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
-                                        <p class="info">San Diego USA - 6th April 2019     <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
-                                        <p class="info">Los Angeles USA - 10th April 2019  <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
-                                        <p class="info">San Francisco USA - 14th April 2019<button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p><br><br>
-                                    <h3 class="info-info">For Functions, Weddings, Parties please<a href="#contact-us"> contact us </a>for further information</h3>    
-                                </div>
-                        </div>        
-                                <div class="col-sm-4">
-                            <figure class="tour-pics">
-                                <img src="assets/images/petemickeygig.jpg" alt="Mickey Peter" class="responsive">
-                            </figure>
-                        </div>
-                        
+                              <div class="col-sm-4">
+                                  <div class="venue-dates">
+                                      <div class="header">Tour Dates & Venues</div>
+                                           <p class="info">Fresno USA - 30th March 2019       <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
+                                           <p class="info">California USA - 3rd April 2019    <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
+                                           <p class="info">San Diego USA - 6th April 2019     <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
+                                           <p class="info">New York USA - 10th April 2019  <button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p>
+                                           <p class="info">Buffalo USA - 14th April 2019<button type="button" class="btn btn-danger btn-xs">Buy Tickets</button></p><br><br>
+                                      <div class="info">For Functions, Weddings, Parties please<a href="#contact-us"> contact us </a>for further information</div>    
+                                  </div>
+                              </div>        
+                            <div class="col-sm-4">
+                                <figure class="tour-pics">
+                                    <img src="assets/images/petemickeygig.jpg" alt="Mickey Peter" class="responsive">
+                                </figure>
+                            </div>
                     </div>
                 </div>
            </header> 
-     <!--End Tour Dates Section-->     
      
-     <!--Booking/Newsletter Section-->
+    <!--Booking/Newsletter Section-->
             
-            <div class="booking-section">
-                <div class="container">
+            <div class="newsletter-section text-center">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12">
                             <div id="Newsletter">
-                                <h1 class="header">Subscribe To Our Newsletter.</h1>
-                                    <h2 class="info-info">For latest news and a chance to win a signed Christmas album.<br>
-                                                          Just <a href="#contact-us"> sign up </a>to our Newsletter by filling out the form below.</h2>
+                                <div class="header">Subscribe To Our Newsletter.</div>
+                                    <div class="info">For latest news and a chance to win a signed Christmas album.<br>
+                                                          Just <a href="#contact-us"> sign up </a>to our Newsletter by filling out the form below.</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            
-            <!--End Booking/Newsletter section-->
-            
-            <!--Contact Us Section-->
+    <!--Contact Us Section-->
             
             <header id="contact-us">
-                <div class="container">
-                	<div class="row">
-                      <div class="col-md-12">
-                        <div class="well well-sm">
-                          <form class="form-horizontal" method="post">
-                          <fieldset>
-                            <legend class="info-latest text-center">Contact us</legend>
+                  <div class="container-fluid">
+                	  <div class="row">
+                          <div class="col-md-12">
+                              <div class="well well-sm">
+                                  <form class="form-horizontal" method="post">
+            <fieldset>
+                      <legend class="sub-header text-center">Contact us</legend>
                     
                             <!-- Name input-->
-                            <div class="form-group">
-                              <label class="col-md-3 info" for="name">Name</label>
-                              <div class="col-md-9">
+                  <div class="form-group">
+                      <label class="col-md-3 info" for="name">Name</label>
+                            <div class="col-md-9">
                                 <input id="name" name="name" type="text" placeholder="Your name.." class="form-control" required>
-                              </div>
-                            </div>
+                             </div>
+                  </div>
                     
                             <!-- Email input-->
-                            <div class="form-group">
-                              <label class="col-md-3 info" for="email">E-mail</label>
-                              <div class="col-md-9">
+                  <div class="form-group">
+                      <label class="col-md-3 info" for="email">E-mail</label>
+                            <div class="col-md-9">
                                 <input type="email" class="form-control" id="email" placeholder="Enter e-mail.." name="email" required>
-                              </div>
-                            </div>
+                             </div>
+                  </div>
                     
                             <!-- Message body -->
-                            <div class="form-group">
-                              <label class="col-md-3 info" for="message">Message</label>
-                              <div class="col-md-9">
+                  <div class="form-group">
+                      <label class="col-md-3 info" for="message">Message</label>
+                            <div class="col-md-9">
                                 <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                              </div>
-                            </div>
+                             </div>
+                  </div>
                     
                             <!-- Form actions -->
                             <div class="form-group">
-                              <div class="col-md-12 text-right">
-                                  <h6>*We will never share your information with anyone else</h6><hr>
-                                <button type="button" class="btn btn-primary btn-lg">Submit</button>
-                              </div>
+                                <div class="col-md-12 text-right">
+                                    <h6>*We will never share your information with anyone else</h6><hr>
+                                        <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
                             </div>
-                          </fieldset>
+            </fieldset>
                           </form>
                         </div>
                       </div>
                 	</div>
                 </div>
             </header>
-             
-            <!--End Contact Us Section--> 
             
-            <!--Footer-->
+    <!--Footer-->
                 <footer>
-                    <div class="footer">
-                        <a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square"></i></a>
-                        <a target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram"></i></a><br>
-                        <a target="_blank" href="https://www.monkees.com/"><i class="milestone">The Monkees - Milestone Project No.1 by Brendan O'Brien</i></a>
-                    </div>
+                        <div class="footer">
+                            <a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square"></i></a>
+                            <a target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram"></i></a><br>
+                            <a target="_blank" href="https://www.monkees.com/"><i class="milestone">The Monkees - Milestone Project No.1 by Brendan O'Brien</i></a>
+                        </div>
                 </footer>
-                
-            <!--End Footer-->
-    
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
