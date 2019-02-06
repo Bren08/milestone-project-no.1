@@ -1,36 +1,9 @@
 html, body {
-    
     width: 100%;
     padding:0;
     margin: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-}
-
-
-
-/*---------------------------scroll bar-------------------------*/
- 
-    ::-webkit-scrollbar {
-  width: 10px;
-}
-
- Track 
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #ff4700; 
-  border-radius: 10px;
-}
- 
- Handle 
-::-webkit-scrollbar-thumb {
-  background: #d03631; 
-  border-radius: 10px;
-  border: 2px solid #000;
-}
-
- Handle on hover 
-::-webkit-scrollbar-thumb:hover {
-  background: #888; 
 }
 
 /*---------------------------navigation------------------------------*/
@@ -83,10 +56,6 @@ html, body {
     width: 300px;
     height: 300px;
 }
-
-/*#bio-pic-mickey {*/
-/*    height: 344px;*/
-/*}*/
 
 .info-xmas {
     margin-top :20px;
