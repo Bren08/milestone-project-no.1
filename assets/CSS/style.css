@@ -1,21 +1,13 @@
-body {
-    padding-top: 50px;
-    overflow-x: hidden;
-}
+html, body {
     
-html {
-        scroll-behavior: smooth;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-.no-gutters {
-    padding-left: 0;
-    padding-right: 0;
-}
 
-.row {
-    margin-left: -20px !important;
-    margin-right: -20px !important;
-}
 
 /*---------------------------scroll bar-------------------------*/
  
@@ -23,20 +15,20 @@ html {
   width: 10px;
 }
 
-/* Track */
+ Track 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px #ff4700; 
   border-radius: 10px;
 }
  
-/* Handle */
+ Handle 
 ::-webkit-scrollbar-thumb {
   background: #d03631; 
   border-radius: 10px;
   border: 2px solid #000;
 }
 
-/* Handle on hover */
+ Handle on hover 
 ::-webkit-scrollbar-thumb:hover {
   background: #888; 
 }
@@ -77,7 +69,9 @@ html {
 /*--------------------media---------------------*/
 
 .back-image {
-    padding:0px;
+    padding-top:50px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .img-responsive {
@@ -86,8 +80,8 @@ html {
 }
 
 .bio-pic {
-    width: 100%;
-    height: 344px;
+    width: 300px;
+    height: 300px;
 }
 
 /*#bio-pic-mickey {*/
@@ -319,7 +313,7 @@ button:hover{
     font-size: 16px;
 }
 .button-xmas {
-  padding: 3px 100px;
+  padding: 3px 30px;
   background: hsl(130, 75%, 75%); 
   border-radius: 10px;
   background-color: #058a1b;
