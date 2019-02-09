@@ -1,7 +1,7 @@
 # The Monkees - My First Milestone Project 
 
 The website is about a 1960's music band called The Monkees. In this project I would like to showcase my knowledge of HTML & CSS.
-The site is broken down into seven sections, Home, About, Music, Videos, Tour, News and Contact Us. Each section gives an array 
+The site is broken down into seven sections, Home, News, Music, Videos, About, Tour and Contact Us. Each section gives an array 
 of information, for the existing fan-base and for newer fans to explore. Whether it's listening or viewing current and 
 back catalogue material or maybe just to interact with other like-minded fans through a various choice of social media channels, 
 this website allows the user to indulge themselves. With everything there is always room for improvement and I am only too happy
