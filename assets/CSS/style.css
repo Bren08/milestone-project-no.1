@@ -157,7 +157,7 @@ html, body {
     background-color: #e9aba5;
 }
 
-.newsletter-section {
+#newsletter {
     background-color: #e9aba5;
 }
 
@@ -235,13 +235,12 @@ html, body {
 /*--------------------newsletter & contact us---------------*/
     
 
-#newsletter {
+.newsletter-section {
     font-size: 15px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: lightblue;
+    background-color: #e9aba5;
 }
  
 .form-control {
