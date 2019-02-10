@@ -101,5 +101,5 @@ The videos are embedded from Youtube directly.
 
 #### Acknowledgements:
 
-I would like to thank Shane Muirhead of the Code Institute Slack channel and my mentor assigned by Code Institute Ali Ashik for their help and advice as they gave me some guidance as to how to improve the UX of the site.
+I would like to thank the good members of Code Institute Slack channel for their help and advice as they gave me some guidance as to how to improve the UX of the site.
 
