@@ -11,10 +11,10 @@ to take advice or instruction to better this project to whomever would like to c
 
 This website is for the existing fan base and also for a newer cohort of fans too. If it's just to reminisce and listen or view the 
 bands back-catalogue material, or new fans have been intrigued to listen to some more, the site is easily accessible and navigation is 
-smooth and true for either user to manouvere around. The site has a fresh bright look with easy on the eye colours and text that stands out, but 
-not too much. There is also a scroll bar added to ease the movement vertically up and down the website. 
+smooth and true for either user to manouvere around. The site has a fresh modern look with easy on the eye colours and text that stands out, but 
+not too much.  
 
-The Monkees came from a time were funky music and colours were the norm so I feel with the fonts used this establishes the look 
+The Monkees came from a time were funky music and colours were the norm so I feel with thecolours & fonts used, this establishes the mature, refined look 
 that they were going for, without the far out colours of their heyday.
 
 I've used some shadow effects for smooth transition on the click of the buttons. I've also made the transition from section to section as smooth
