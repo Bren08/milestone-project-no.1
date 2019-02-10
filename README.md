@@ -38,9 +38,9 @@ the sticky navigation bar also keeps the user attune as to where they are and wh
 <li><strong>About:</strong> This area gives a short bio and a picture of each band member.</li><li><strong>Music:</strong> In here the user can indulge in some classics
 and can hear some soundbites from yesteryear</li><li><strong>Video:</strong> This area allows the user to view
 videos of past and current tracks</li> 
-<li><strong>Tour:</strong> area describes and informs the user of concert dates, venues and also allows the purchase of tickets for the required events.</li>
+<li><strong>Tour:</strong> This area describes and informs the user of concert dates, venues and also allows the purchase of tickets for the required events.</li>
 <li><strong>News:</strong> This section will keep the user up to date with the latest and most current band news</li><li><strong>Contact Us:</strong> If the user requires
-the services of the band for a function, they can fill out the form and submit it, to contact the band. This area also provides a facility to sign up for the Newsletter,if
+the services of the band for a function, they can fill out the form and submit it, to contact the band. This area also provides a facility to sign up for the Newsletter, if
 the user would like to receive regular updates, news, competitions, offers etc. They just insert their email address with a short message with their request</li></ol> 
 
 #### Future plans include: 
