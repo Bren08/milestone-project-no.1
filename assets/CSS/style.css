@@ -300,14 +300,19 @@ button:hover{
 
 .button-xmas {
   padding: 3px 30px;
-  background: hsl(130, 75%, 75%); 
+  /*background: hsl(130, 75%, 75%); */
   border-radius: 10px;
-  background-color: #058a1b;
-  color: #ffffff;
+  background-color: #058a1b !important;
+  color: #ffffff !important;
   border: 0;
   font-size: 13px;
-  transition: all 2s;
+  transition: all 1s;
   cursor: pointer;
+}
+
+.button-xmas:hover {
+    background-color: #ffffff !important;
+    color: #058a1b !important; 
 }
 
 button:hover{
