@@ -364,3 +364,17 @@ fieldset {
     font-style: italic;
     color: #fff;
 }
+
+@media(min-width: 768px) {
+.nav>li {
+	font-size:15px;
+	}
+	
+}
+	
+@media(min-width: 992px) {
+.nav>li {
+	font-size:22px;
+	}
+}
+	
