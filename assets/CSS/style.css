@@ -39,6 +39,10 @@ html, body {
     
 }
 
+,navbar-brand:hover {
+    color: #d03631;
+ }
+
 /*--------------------media---------------------*/
 
 .back-image {
