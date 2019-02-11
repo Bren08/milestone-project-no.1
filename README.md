@@ -9,7 +9,8 @@ to take advice or instruction to better this project to whomever would like to c
 
 ## UX
 
-I would like to direct you to the UX directory where you will find the Strategy, Scope, Structure and Skeleton (wireframes) UX.
+I would like to direct you to the UX directory above where you will find the Strategy, Scope, Structure and Skeleton (wireframes).
+
 This website is for the existing fan base and also for a newer cohort of fans too. If it's just to reminisce to listen or view the 
 band's back-catalogue material, or even if new fans have been intrigued to listen to some more, the site is easily accessible and navigation is 
 smooth and true for either user to manoeuvre around. The site has a fresh modern look with easy on the eye colours text & fonts that stand out, but 
