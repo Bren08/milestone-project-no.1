@@ -39,7 +39,7 @@ html, body {
     
 }
 
-,navbar-brand:hover {
+.navbar-brand:hover {
     color: #d03631;
  }
 
@@ -368,6 +368,8 @@ fieldset {
     font-style: italic;
     color: #fff;
 }
+
+/*--------Media queries----------*/
 
 @media(min-width: 768px) {
 .nav>li {
