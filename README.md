@@ -4,25 +4,26 @@ The website is about a 1960's music band called The Monkees. In this project I w
 The site is broken down into seven sections, Home, News, Music, Videos, About, Tour and Contact Us. Each section gives an array 
 of information, for the existing fan-base and for newer fans to explore. Whether it's listening or viewing current and 
 back catalogue material or maybe just to interact with other like-minded fans through a various choice of social media channels, 
-this website allows the user to indulge themselves. With everything there is always room for improvement and I am only too happy
+this website allows the user to indulge themselves. As with everything, there is always room for improvement and I am only too happy
 to take advice or instruction to better this project to whomever would like to contribute.
 
 ## UX
 
-This website is for the existing fan base and also for a newer cohort of fans too. If it's just to reminisce and listen or view the 
-bands back-catalogue material, or new fans have been intrigued to listen to some more, the site is easily accessible and navigation is 
-smooth and true for either user to manouvere around. The site has a fresh modern look with easy on the eye colours and text that stands out, but 
+I would like to direct you to the UX directory where you will find the Strategy, Scope, Structure and Skeleton (wireframes) UX.
+This website is for the existing fan base and also for a newer cohort of fans too. If it's just to reminisce to listen or view the 
+band's back-catalogue material, or even if new fans have been intrigued to listen to some more, the site is easily accessible and navigation is 
+smooth and true for either user to manoeuvre around. The site has a fresh modern look with easy on the eye colours text & fonts that stand out, but 
 not too much.  
 
-The Monkees came from a time were funky music and colours were the norm so I feel with thecolours & fonts used, this establishes the mature, refined look 
-that they were going for, without the far out colours of their heyday.
+The Monkees, being the first ever TV manufactured acting boy band came from a time were funky music and colours were the norm so I feel with the colours & fonts used, this website establishes the mature, refined look 
+that they portray today, without the far-out colours of their heyday.
 
-I've used some shadow effects for smooth transition on the click of the buttons. I've also made the transition from section to section as smooth
+I've used some shadow effects for smooth transition & a hover effect over the buttons. I've also made the transition from section to section as smooth
 as possible with some smooth scrolling, so moving through the navigation features is effortless. There are plenty of sections available to the user
 to gain whatever knowledge they require. 
 
 There is also a link to buy some current material or tickets for up and coming shows, if the user wishes to do so.
-I have created a Contact us form if the user were to require the services for the band for a private function or they want to sign up for the newsletter.
+I have created a Contact Us form if the user were to require the services of the band for a private function or they just want to sign up for the newsletter.
 
 
 Also with the band currently trying to promote their exposure on Social Media, there are plenty of Social Media platforms to choose from, whether it's 
@@ -36,23 +37,23 @@ The Latest News area and the Footer contains the various Social Media Links. Eac
 <ol><li><strong>Home:</strong> The Home section is self explanatory, it takes you back to the beginning or top of the page, although 
 the sticky navigation bar also keeps the user attune as to where they are and where they can click or scroll to, to find their way around.
 <li><strong>About:</strong> This area gives a short bio and a picture of each band member.</li><li><strong>Music:</strong> In here the user can indulge in some classics
-and can hear some soundbites from yesteryear</li><li><strong>Video:</strong> This area allows the user to view
-videos of past and current tracks</li> 
+and can hear some soundbites from yesteryear.</li><li><strong>Video:</strong> This area allows the user to view
+videos of past and current tracks.</li> 
 <li><strong>Tour:</strong> This area describes and informs the user of concert dates, venues and also allows the purchase of tickets for the required events.</li>
-<li><strong>News:</strong> This section will keep the user up to date with the latest and most current band news</li><li><strong>Contact Us:</strong> If the user requires
+<li><strong>News:</strong> This section will keep the user up to date with the latest and most current band news.</li><li><strong>Contact Us:</strong> If the user requires
 the services of the band for a function, they can fill out the form and submit it, to contact the band. This area also provides a facility to sign up for the Newsletter, if
-the user would like to receive regular updates, news, competitions, offers etc. They just insert their email address with a short message with their request</li></ol> 
+the user would like to receive regular updates, news, competitions, offers etc. They just insert their email address with a short message with their request.</li></ol> 
 
 #### Future plans include: 
-<ul><li>The set-up of more regular newsletter updates (currently every 2 months) we would like to get that down to 1 month if we can</li><li>A new
-fan section, where young and old can meet and interact to share their stories and experiences of the band</li><li>A new feedback area where fans can offer advice as to where
-we can improve or enhance their experience whilst visiting our site</li></ul>
+<ul><li>The set-up of more regular newsletter updates (currently every 2 months) we would like to get that down to 1 month if we can.</li><li>A new
+fan section, where young and old can meet and interact to share their stories and experiences of the band.</li><li>A new feedback area where fans can offer advice as to where
+we can improve or enhance their experience whilst visiting our site.</li></ul>
 
 ## Technologies Used
 
-<ul><li>HTML5 was used as the markup language for the site.</li><li>CSS3 was used to style the website</li><li> Bootstrap 3.3.7 for the main layout, along with Flexbox</li>
-<li>Font awesome was used for some of the social media icons</li><li>Google Fonts was used for different text/fonts required</li><li>Cloud9 was used as the IDE to write the markup and css
-in an open source work-space</li><li>Git & Github were used to commit repositories to, again so the code can be viewed or edited or stored. It was also used to deploy the website.</li></ul>
+<ul><li>HTML5 was used as the markup language for the site.</li><li>CSS3 was used to style the website.</li><li> Bootstrap 3.3.7 for the main layout, along with Flexbox.</li>
+<li>Font awesome was used for some of the social media icons.</li><li>Google Fonts was used for different text/fonts required.</li><li>Cloud9 was used as the IDE to write the markup and css
+in an open source work-space.</li><li>Git & Github were used to commit repositories to, again so the code can be viewed or edited or stored. It was also used to deploy the website.</li></ul>
 
 #### The list of frameworks, languages & libraries used were: 
 
@@ -66,7 +67,7 @@ Finally, a lot of hours researching on Google were required also, but https://ww
 
 Each area of the site has been tested & appears to be working well. The user should be able to achieve their goal as the site intends, depending on whatever they choose to do when they visit. I have used Dev tools 
 in Google Chrome to test the responsiveness of the site on different devices small and large and the site appears to render well on different screen sizes *(see below, I found some issues)<br> 
-Each function on the music player plays the mp3 tracks as it is designed to. The track can be played, stopped and the volume can be adjusted to your liking. or muted if that is your requirement.<br> 
+Each function on the music player plays the mp3 tracks as it is designed to. The track can be played, stopped and the volume can be adjusted to your liking, or muted if that is your requirement.<br> 
 When the videos are clicked in the video area, they too work as they should.<br> The link under the Christmas Album
 takes you to another website where you can purchase the album, that works well.<br> Furthermore, 
 I have used W3C Code Validator https://validator.w3.org/nu/ to verify there are no errors in my HTML and CSS. I have tried to keep the code as semantic as possible too.<br> I have yet to test the site
