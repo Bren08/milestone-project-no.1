@@ -86,7 +86,7 @@ clicking a link in the drop-down area.
 
 ## Deployment 
 
-I deployed the project using Github pages and the link to the website is: https://bren08.github.io/milestone-project-no.1/
+I deployed the project using Github pages and the link to the website is: https://bren08.github.io/the-monkees-milestone-project-no.1/
 
 ## Credits 
 
