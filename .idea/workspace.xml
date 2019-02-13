@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="311087eb-29bf-4866-9156-d4cc4e365f61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/DaydreamBeliever.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/audio/daydream_believer.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/ImaBeliever.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/audio/im_a_believer.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/LastTrainToClarksville.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/audio/last_train_to_clarksville.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/SteppinStone.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/audio/steppin_stone.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Christmas_Album.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/christmas_album.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Davy_Jones.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/davy_jones.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Daydream-believer-single.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/daydream_believer_single.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/I'm-a-believer-single.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/im_a_believer_single.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ImNotYourSteppingStone-single.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/im_not_your_stepping_stone_single.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/MickeyMikePeter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mickey_mike_peter.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Mickey_Dolenz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mickey_dolenz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Mike_Nesmith.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mike_nesmith.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Peter_Tork.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/peter_tork.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/last-train-to-clarksville-single.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/last_train_to_clarksville_single.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/petemickeygig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pete_mickey_gig.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="166" column="14" lean-forward="true" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+            <state relative-caret-position="486">
+              <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -74,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="429" />
     <option name="y" value="106" />
     <option name="width" value="1400" />
@@ -97,12 +81,6 @@
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,12 +126,12 @@
       <workItem from="1549837343367" duration="1890000" />
       <workItem from="1549839443310" duration="9830000" />
       <workItem from="1549851517232" duration="52000" />
-      <workItem from="1550006064355" duration="7580000" />
+      <workItem from="1550006064355" duration="8482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19352000" />
+    <option name="totallyTimeSpent" value="20254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -215,8 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="166" column="14" lean-forward="true" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+        <state relative-caret-position="486">
+          <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
         </state>
       </provider>
     </entry>
