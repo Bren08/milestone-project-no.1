@@ -53,8 +53,10 @@ we can improve or enhance their experience whilst visiting our site.</li></ul>
 ## Technologies Used
 
 <ul><li>HTML5 was used as the markup language for the site.</li><li>CSS3 was used to style the website.</li><li> Bootstrap 3.3.7 for the main layout, along with Flexbox.</li>
-<li>Font awesome was used for some of the social media icons.</li><li>Google Fonts was used for different text/fonts required.</li><li>Cloud9 was used as the IDE to write the markup and css
-in an open source work-space.</li><li>Git & Github were used to commit repositories to, again so the code can be viewed or edited or stored. It was also used to deploy the website.</li></ul>
+<li>Font awesome was used for some of the social media icons.</li><li>Google Fonts was used for different text/fonts required.</li><li>Cloud9 & PyCharm 
+(PyCharm was used too but only towards the very end of the project as there were ongoing technical issues with Cloud9)
+these were used as the IDE. 
+</li><li>Git & Github were used to commit repositories to, again so the code can be viewed or edited or stored. It was also used to deploy the website.</li></ul>
 
 #### The list of frameworks, languages & libraries used were: 
 
